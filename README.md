@@ -3,7 +3,7 @@
 Anggota Kelompok:
 * Osmond Haylim (140810200022)
 * NAMA (NPM)
-* NAMA (NPM)
+* Theodorik Marcus Fritz Lopak (140810190070)
 ---
 ## Latar Belakang
 
