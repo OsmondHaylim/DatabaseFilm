@@ -22,8 +22,9 @@ Tujuan dari proyek ini adalah untuk menambah pengalaman dalam menggunakan bahasa
 Aplikasi ini dirancang sebagai aplikasi sistem database sederhana yang akan dijalankan melalui command-line oleh operator menggunakan bahasa C++ dengan kapabilitas sebagai berikut :
 * Menyimpan dan menampilkan informasi mengenai film-film yang sudah ada (Linked list)
 * Membuat sebuah watchlist yang dapat diedit (Queue)
-* Menampilkan film berdasarkan popularitas, waktu, dan rating 
+* Menampilkan film berdasarkan popularitas, waktu, rating, serta aplikasi untuk menonton film tersebut 
 * Menampilkan informasi mengenai direktur dan aktor dari film terkait (Graph/map)
+* Menginput data terbaru mengenai film yang belum ada dalam database
 
 
 ## Gambar Rancangan Antar Muka
@@ -41,7 +42,7 @@ dibebaskan sesuai kreatifitas kalian
 
 ### Tools yang digunakan
 
-
+Proyek ini akan menggunakan visual studio code untuk mengedit kode-kode yang akan digunakan, serta github untuk menggabungkan kode-kode dari setiap orang dalam kelompok ini.
 
 ### Koordinasi
 
