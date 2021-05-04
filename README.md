@@ -7,7 +7,9 @@ Anggota Kelompok:
 ---
 ## Latar Belakang
 
-Menonton film merupakan hobi dari banyak orang, sehingga film merupakan sebuah cabang yang besar dalam industri hiburan. 
+Tidak ada orang yang tidak tahu apa itu sebuah film. Menonton film merupakan hobi dari banyak orang, sehingga film merupakan sebuah cabang yang besar dalam industri hiburan.
+
+Banyak orang senang menonton film di saat waktu luang mereka. Walaupun begitu, tidak semua orang dapat mempunyai waktu luang mereka setiap hari. Terlebih lagi, kebanyakan orang mempunyai masalah yang cukup umum di saat waktu luang mereka yaitu masalah untuk memilih film apa yang akan ditonton.
 
 ## Tujuan dan Manfaat
 
@@ -16,10 +18,10 @@ Tujuan dari proyek ini adalah untuk menambah pengalaman dalam menggunakan bahasa
 ## Penjelasan Aplikasi
 
 Aplikasi ini dirancang sebagai aplikasi sistem database sederhana yang akan dijalankan melalui command-line oleh operator menggunakan bahasa C++ dengan kapabilitas sebagai berikut :
-* Menyimpan dan menampilkan informasi mengenai film-film yang sudah ada
-* Membuat sebuah watchlist yang dapat diedit
-* Menampilkan film berdasarkan popularitas
-* Menampilkan informasi mengenai direktur dan aktor dari film terkait
+* Menyimpan dan menampilkan informasi mengenai film-film yang sudah ada (linked list)
+* Membuat sebuah watchlist yang dapat diedit (Queue)
+* Menampilkan film berdasarkan popularitas, waktu, dan rating 
+* Menampilkan informasi mengenai direktur dan aktor dari film terkait (Graph/map)
 
 
 ## Gambar Rancangan Antar Muka
