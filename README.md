@@ -38,8 +38,6 @@ dibebaskan sesuai kreatifitas kalian
 
 
 ## Rencana Pengerjaan Projek
-### Pembagian Tugas
-
 
 
 ### Tools yang digunakan
