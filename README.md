@@ -1,4 +1,4 @@
-# Aplikasi Film Database dengan Menggunakan Cahasa C++
+# Aplikasi Film Database dengan Menggunakan Bahasa C++ [Movilist]
 
 Anggota Kelompok:
 * Osmond Haylim (140810200022)
