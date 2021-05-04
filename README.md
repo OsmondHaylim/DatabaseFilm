@@ -30,7 +30,7 @@ Aplikasi ini dirancang sebagai aplikasi sistem database sederhana yang akan dija
 
 
 ## Gambar Rancangan Antar Muka
-![image](https://user-images.githubusercontent.com/79406052/116956924-afea5380-acc0-11eb-996f-00904d046f40.png)
+![image](https://user-images.githubusercontent.com/79406052/116957680-a661eb00-acc2-11eb-806f-8c8d73794463.png)
 ![image](https://user-images.githubusercontent.com/79406052/116957430-0c01a780-acc2-11eb-9490-018e15bc9010.png)
 
 
