@@ -30,11 +30,7 @@ Aplikasi ini dirancang sebagai aplikasi sistem database sederhana yang akan dija
 
 
 ## Gambar Rancangan Antar Muka
-<!--
-Buat rancangan antar muka selengkap mungkin sesuai fungsi aplikasinya. rancangan antar muka
-diusahakan serapih dan seindah mungkin. tools yang digunakan dalam pembuatan rancangan gambar
-dibebaskan sesuai kreatifitas kalian
-!-->
+![image](https://user-images.githubusercontent.com/79406052/116956718-276bb300-acc0-11eb-9f82-acc6c748fadc.png)
 
 
 ## Rencana Pengerjaan Projek
