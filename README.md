@@ -15,7 +15,11 @@ Tujuan dari proyek ini adalah untuk menambah pengalaman dalam menggunakan bahasa
 
 ## Penjelasan Aplikasi
 
-Aplikasi ini dirancang untuk menyimpan data mengenai film dan membuat sebuah watchlist sehingga pengguna dapat menemukan judul film dengan lebih mudah dan memasukkannya ke dalam watchlist pengguna supaya pengguna dapat merencanakan dan mengingat apa yang mereka akan tonton nanti.
+Aplikasi ini dirancang sebagai aplikasi sistem database sederhana yang akan dijalankan melalui command-line oleh operator menggunakan bahasa C++ dengan kapabilitas sebagai berikut :
+* Menyimpan dan menampilkan informasi mengenai film-film yang sudah ada
+* Membuat sebuah watchlist yang dapat diedit
+* Menampilkan film berdasarkan popularitas
+* Menampilkan informasi mengenai direktur dan aktor dari film terkait
 
 
 ## Gambar Rancangan Antar Muka
