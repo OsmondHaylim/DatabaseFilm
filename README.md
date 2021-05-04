@@ -13,7 +13,7 @@ Banyak orang senang menonton film di saat waktu luang mereka. Walaupun begitu, t
 
 ## Tujuan dan Manfaat
 
-Tujuan dari proyek ini adalah untuk menambah pengalaman dalam menggunakan bahasa c++ untuk membuat sebuah aplikasi yang mempunyai manfaat seperti memudahkan user untuk mencari data-data tentang dunia perfilm-an serta menambah wawasan dan informasi mengenai film
+Tujuan dari proyek ini adalah untuk menambah pengalaman dalam menggunakan bahasa c++ untuk membuat sebuah aplikasi yang mempunyai manfaat seperti memudahkan user untuk mencari data-data tentang dunia perfilm-an serta menambah wawasan dan informasi mengenai film yang dapat ditonton dan juga mempermudah orang untuk merencanakan filmnya yang ingin mereka tonton.
 
 ## Penjelasan Aplikasi
 
@@ -33,12 +33,8 @@ dibebaskan sesuai kreatifitas kalian
 
 
 ## Rencana Pengerjaan Projek
-## Gambar Rancangan Antar Muka
-<!--
-Dalam kondisi pandemi seperti ini, tidak memungkinkan untuk bertemu bertatap muka. Maka dari itu
-jelaskan bagaimana kalian bekerja sama, berkoordinasi, pembagian kerja.Tools apa yang kalian gunakan
-untuk bekerja bersama sama cth github, google docs, google meet
-!-->
+
+Pengerjaan proyek akan dilakukan dengan koordinasi secara langsung lewat beragam aplikasi video conferencing, seperti Google Meet, Discord, dll. Akan juga koordinasi secara tidak langsung lewat aplikasi chat Line untuk koordinasi melakukan perubahan ke repository agar tidak terjadi tumpang tindih.
 
 
 ## Lisensi
