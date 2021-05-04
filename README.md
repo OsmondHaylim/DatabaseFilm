@@ -15,7 +15,7 @@ Oleh karena itu, aplikasi sistem database film merupakan aplikasi yang tepat unt
 
 ## Tujuan dan Manfaat
 
-Tujuan dari proyek ini adalah untuk menambah pengalaman dalam menggunakan bahasa c++ untuk membuat sebuah aplikasi yang mempunyai manfaat seperti memudahkan user untuk mencari data-data tentang dunia perfilm-an serta menambah wawasan dan informasi mengenai film
+Tujuan dari proyek ini adalah untuk menambah pengalaman dalam menggunakan bahasa c++ untuk membuat sebuah aplikasi yang mempunyai manfaat seperti memudahkan user untuk mencari data-data tentang dunia perfilm-an serta menambah wawasan dan informasi mengenai film yang dapat ditonton dan juga mempermudah orang untuk merencanakan filmnya yang ingin mereka tonton.
 
 ## Penjelasan Aplikasi
 
