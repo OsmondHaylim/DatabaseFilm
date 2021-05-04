@@ -11,7 +11,7 @@ Menonton film merupakan hobi dari banyak orang, sehingga film merupakan sebuah c
 
 ## Tujuan dan Manfaat
 
-Tujuan dari proyek ini adalah untuk menambah pengalaman dalam menggunakan bahasa c++ untuk membuat sebuah aplikasi,
+Tujuan dari proyek ini adalah untuk menambah pengalaman dalam menggunakan bahasa c++ untuk membuat sebuah aplikasi yang mempunyai manfaat seperti memudahkan user untuk mencari data-data tentang dunia perfilm-an serta menambah wawasan dan informasi mengenai film
 
 ## Penjelasan Aplikasi
 
