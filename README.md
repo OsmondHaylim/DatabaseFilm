@@ -7,7 +7,7 @@ Anggota Kelompok:
 ---
 ## Latar Belakang
 
-Menonton film merupakan 
+Menonton film merupakan hobi dari banyak orang, sehingga film merupakan sebuah cabang yang besar dalam industri hiburan. 
 
 ## Tujuan dan Manfaat
 
