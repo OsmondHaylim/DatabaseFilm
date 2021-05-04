@@ -1,4 +1,4 @@
-# JUDUL_PROYEK
+# Aplikasi Film Database dengan Menggunakan Cahasa C++
 
 Anggota Kelompok:
 * Osmond Haylim (140810200022)
@@ -7,10 +7,15 @@ Anggota Kelompok:
 ---
 ## Latar Belakang
 
+Menonton film merupakan 
 
 ## Tujuan dan Manfaat
 
+Tujuan dari proyek ini adalah untuk menambah pengalaman dalam menggunakan bahasa c++ untuk membuat sebuah aplikasi,
+
 ## Penjelasan Aplikasi
+
+Aplikasi ini dirancang untuk menyimpan data mengenai film dan membuat sebuah watchlist sehingga pengguna dapat menemukan judul film dengan lebih mudah dan memasukkannya ke dalam watchlist pengguna supaya pengguna dapat merencanakan dan mengingat apa yang mereka akan tonton nanti.
 
 
 ## Gambar Rancangan Antar Muka
