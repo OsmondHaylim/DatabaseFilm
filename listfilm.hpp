@@ -1,11 +1,25 @@
 struct film{
     std::string judul;
     std::string synopsis;
+    std::string media;
     int rating;
     film* next;
 };
 
 typedef film* pfilm;
+
+void startFilm(int &inputnya){
+    std::cout << "===============Movilist===============" << std::endl;
+    std::cout << "Masukkan input : " << std::endl;
+    std::cout << "1. List film berdasarkan popularitas" << std::endl;
+    std::cout << "2. List Film berdasarkan Media Tonton" << std::endl;
+    std::cout << "3. List Producer/Director Film" << std::endl;
+    std::cout << "4. Input Film baru" << std::endl;
+    std::cout << "5. Input flim baru dalam Watchlist" << std::endl;
+    std::cout << "6. View Watchlist" << std::endl;
+    std::cout << "7. Exit" << std::endl;
+    std::cin >> inputnya; 
+}
 
 void insertFilm(pfilm& list, pfilm& head, std::string a){
     int temp = 0;
@@ -14,6 +28,9 @@ void insertFilm(pfilm& list, pfilm& head, std::string a){
     std::cin >> a;
     list->judul = a;
     std::cout << "Silahkan input synopsis film : ";
+    std::cin >> a;
+    list->synopsis = a;
+    std::cout << "Silahkan input media tonton film : ";
     std::cin >> a;
     list->synopsis = a;
     std::cout << "Silahkan input rating film : ";
@@ -37,6 +54,9 @@ void swapFilm(pfilm& A, pfilm& B){
     y = A->synopsis;
     A->synopsis = B->synopsis;
     B->synopsis = y;
+    y = A->media;
+    A->media = B->media;
+    B->media = y;
 }
 
 int nodeCount(pfilm head){

@@ -6,12 +6,18 @@
 
 int main(){
     pfilm head, list;
+    int inputnya;
     std::string a;
     head = nullptr;
-    insertFilm(list, head, a);
-    insertFilm(list, head, a);
-    insertFilm(list, head, a);
-    showListedFilm(head);
-    showsortedFilm(head);
-    showListedFilm(head);
+    while(true){
+        startFilm(inputnya);
+        if(inputnya == 1){
+            showsortedFilm(head);
+            showListedFilm(head);        
+        }else if(inputnya == 4){
+            insertFilm(list, head, a);
+        }else if(inputnya == 7){
+            break;
+        }
+    }
 }
