@@ -2,6 +2,7 @@ struct film{
     std::string judul;
     std::string synopsis;
     std::string media;
+    std::string dp;
     int rating;
     int visited = 0;
     film* next;
@@ -36,6 +37,9 @@ void insertFilm(pfilm& list, pfilm& head){
     std::cout << "Silahkan input media tonton film : \n";
     std::getline(std::cin, a);
     list->media = a;
+    std::cout << "Silahkan input producer/director film : \n";
+    std::getline(std::cin, a);
+    list->dp = a;
     std::cout << "Silahkan input rating film : \n";
     std::cin >> temp;
     list->rating = temp;
@@ -57,6 +61,9 @@ void swapFilm(pfilm& A, pfilm& B){
     y = A->synopsis;
     A->synopsis = B->synopsis;
     B->synopsis = y;
+    y = A->dp;
+    A->dp = B->dp;
+    B->dp = y;
     y = A->media;
     A->media = B->media;
     B->media = y;
