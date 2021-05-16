@@ -17,13 +17,14 @@ void startFilm(int &inputnya){
     std::cout << "2. List Film berdasarkan Media Tonton" << std::endl;
     std::cout << "3. List Producer/Director Film" << std::endl;
     std::cout << "4. Input Film baru" << std::endl;
-    std::cout << "5. Input flim baru dalam Watchlist" << std::endl;
+    std::cout << "5. Input film baru dalam Watchlist" << std::endl;
     std::cout << "6. View Watchlist" << std::endl;
     std::cout << "7. Exit" << std::endl;
     std::cin >> inputnya; 
 }
 
 void insertFilm(pfilm& list, pfilm& head){
+    std::cout << "===============Movilist===============" << std::endl;
     int temp = 0;
     list = new film;
     std::string a = "";
@@ -96,8 +97,22 @@ void showsortedFilm(pfilm& head){
         temp = temp->next;
     }
 }
+void showFilm(pfilm head, int i){
+    std::cout << "===============Movilist===============" << std::endl;
+    pfilm temp = head;
+    for(int j = 1; j < i; j++){
+        temp = temp->next;
+    }
+    std::cout << temp->judul << "\n";
+    std::cout << "   Rating : " << temp->rating << "%\n";
+    std::cout << "   Media Tonton : " << temp->media << "\n";
+    std::cout << "   Director/Producer : " << temp->dp << "\n";
+    std::cout << "   Sinopsis : \n";
+    std::cout << temp->synopsis << "\n";
 
+}
 void showListedFilm(pfilm head){
+    std::cout << "===============Movilist===============" << std::endl;
     pfilm temp = head;
     std::cout << "List Film :\n";
     int i = 1;
@@ -108,6 +123,9 @@ void showListedFilm(pfilm head){
         i++;
         temp = temp->next;
     }
+    std::cout << "Pilih nomor film : ";
+    std::cin >> i;
+    showFilm(head, i);
 }
 
 void sortMedia(pfilm head){
