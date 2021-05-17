@@ -1,8 +1,3 @@
-struct queue{
-    pfilm head;
-    pfilm tail;
-};
-
 void createQ(queue& Q){
     Q.head = nullptr;
     Q.tail = nullptr;

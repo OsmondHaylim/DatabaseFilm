@@ -1,3 +1,5 @@
+#include "listfilm.hpp"
+
 void startFilm(int &inputnya){
     std::cout << "===============Movilist===============" << std::endl;
     std::cout << "Masukkan input : " << std::endl;
@@ -10,7 +12,7 @@ void startFilm(int &inputnya){
     std::cout << "7. Exit" << std::endl;
     std::cin >> inputnya; 
 }
-void insertFilm(pfilm& list, pfilm& head, tree& root){
+void insertFilm(pfilm& list, pfilm& head){
     std::cout << "===============Movilist===============" << std::endl;
     int temp = 0;
     list = new film;
@@ -38,7 +40,6 @@ void insertFilm(pfilm& list, pfilm& head, tree& root){
         list->next = head;
         head = list;
     }
-    cJudul(root, list);
 }
 void swapFilm(pfilm& A, pfilm& B){
     int x = A->rating;

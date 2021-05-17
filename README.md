@@ -25,7 +25,7 @@ Aplikasi ini dirancang sebagai aplikasi sistem database sederhana yang akan dija
 * Menyimpan dan menampilkan informasi mengenai film-film yang sudah ada (Linked list)
 * Membuat sebuah watchlist yang dapat diedit (Queue)
 * Menampilkan film berdasarkan popularitas, waktu, rating, serta aplikasi untuk menonton film tersebut 
-* Menampilkan informasi mengenai direktur dan aktor dari film terkait (Graph/map)
+* Menampilkan informasi mengenai direktur/producer dari film terkait (Tree)
 * Menginput data terbaru mengenai film yang belum ada dalam database
 
 
