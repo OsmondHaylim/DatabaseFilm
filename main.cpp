@@ -29,7 +29,7 @@ int main(){
                 tambahQ(head, Q);
             }else if(inputnya == 2){
                 kurangQ(head, Q);
-                std::cout << "Watchlist berhasil diupdate!";
+                std::cout << "Watchlist berhasil diupdate!\n";
             }else{
                 continue;
             }
