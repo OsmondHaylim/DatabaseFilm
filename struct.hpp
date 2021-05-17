@@ -23,5 +23,7 @@ struct branch{
     branch* e;
 };
 
-using pb = branch*;
-using tree = pb;
+typedef branch* pb;
+typedef pb tree;
+// using pb = branch*;
+// using tree = pb;
