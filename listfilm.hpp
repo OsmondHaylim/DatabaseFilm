@@ -28,7 +28,7 @@ void insertFilm(pfilm& list, pfilm& head, tree& root){
     std::cout << "Silahkan input producer/director film : \n";
     std::getline(std::cin, a);
     list->dp = a;
-    std::cout << "Silahkan input rating film : \n";
+    std::cout << "Silahkan input rating film (%): \n";
     std::cin >> temp;
     list->rating = temp;
     list->next = nullptr;
