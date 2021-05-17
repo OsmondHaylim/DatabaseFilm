@@ -9,11 +9,11 @@
 
 int main(){
     pfilm head = nullptr, list;
-    int inputnya;
     tree root = nullptr;
     queue Q;
     createQ(Q);
     while(true){
+        int inputnya = 0;
         startFilm(inputnya);
         if(inputnya == 1){
             showsortedFilm(head);
@@ -22,10 +22,13 @@ int main(){
             sortMedia(head);
             showListedFilm(head); 
         }else if(inputnya == 3){
-            transtree(root);
+            //transtree(root);
+            sortDirector(head);
+            showListedFilm(head); 
         }else if(inputnya == 4){
             insertFilm(list, head, root);
         }else if(inputnya == 5){
+            std::cout << "===============Movilist===============" << std::endl;
             std::cout << "1. Tambah film dalam watchlist\n";
             std::cout << "2. Selesai tonton\n";
             std::cout << "Masukkan input : ";

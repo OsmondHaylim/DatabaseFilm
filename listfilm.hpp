@@ -5,7 +5,7 @@ void startFilm(int &inputnya){
     std::cout << "2. List Film berdasarkan Media Tonton" << std::endl;
     std::cout << "3. List Producer/Director Film" << std::endl;
     std::cout << "4. Input Film baru" << std::endl;
-    std::cout << "5. Input film baru dalam Watchlist" << std::endl;
+    std::cout << "5. Edit Watchlist" << std::endl;
     std::cout << "6. View Watchlist" << std::endl;
     std::cout << "7. Exit" << std::endl;
     std::cin >> inputnya; 
@@ -38,7 +38,6 @@ void insertFilm(pfilm& list, pfilm& head, tree& root){
         list->next = head;
         head = list;
     }
-    cJudul(root, list);
 }
 void swapFilm(pfilm& A, pfilm& B){
     int x = A->rating;
@@ -85,9 +84,17 @@ void showsortedFilm(pfilm& head){
 }
 void showFilm(pfilm head, int i){
     std::cout << "===============Movilist===============" << std::endl;
+    if(head == nullptr){
+            std::cout << "Film tidak ditemukan!\n";
+            return;
+        }
     pfilm temp = head;
     for(int j = 1; j < i; j++){
         temp = temp->next;
+        if(temp == nullptr){
+            std::cout << "Film tidak ditemukan!\n";
+            return;
+        }
     }
     std::cout << temp->judul << "\n";
     std::cout << "   Rating : " << temp->rating << "%\n";
@@ -120,6 +127,20 @@ void sortMedia(pfilm head){
         pfilm r = temp->next;
         while (r) {
             if (min->media < r->media)
+                min = r;
+            r = r->next;
+        }
+        swapFilm(temp, min);
+        temp = temp->next;
+    }
+}
+void sortDirector(pfilm head){
+    pfilm temp = head;
+        while (temp) {
+        pfilm min = temp;
+        pfilm r = temp->next;
+        while (r) {
+            if (min->dp < r->dp)
                 min = r;
             r = r->next;
         }
